@@ -80,7 +80,7 @@ i{
 
 /* DEPLOY AND SCALE SEAMLESSLY */
 
-.list-group-item{
+.list-group-item.deploy{
     border-style: hidden hidden hidden solid;
 }
 
