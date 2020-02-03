@@ -9,6 +9,10 @@
     width: 100%;
 } */
 
+.navbar{
+    background-color: white;
+}
+
 .icon-DigitalOcean{
     width: 180px;
     object-fit: cover;
@@ -16,4 +20,18 @@
 
 .navbar-left{
     padding-left: 50px;
+}
+
+
+/* JUMBOTRONE */
+#Jumbotrone{
+    background-image: url(https://c.wallhere.com/photos/70/11/digitalocean-117488.png!d);
+}
+
+.Title{
+    color: white;
+}
+
+.Blue{
+    color:#0248ff;
 }
