@@ -3,15 +3,16 @@
 }
 
 /* NAVBAR */
-/* header{
+header{
     position: fixed;
-    z-index: 30;
+    z-index: 10;
     width: 100%;
-} */
+}
 
 .navbar{
     background-color: white;
     border: 0 solid white;
+    font-size: 10px;
 }
 
 .icon-DigitalOcean{
@@ -19,14 +20,15 @@
     object-fit: cover;
 }
 
-.navbar-left{
-    padding-left: 50px;
-}
 
+/* #myNavbar2{
+
+} */
 
 /* JUMBOTRONE */
 #Jumbotrone{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    padding-top: 50px;
 }
 
 .Title{
@@ -105,8 +107,9 @@ i.fa-hand-point-right{
 }
 
 i.fa-circle{
-    color:#0248ff;;
+    color:#0248ff;
 }
+
 
 @media screen and (max-width: 768px){
     .example{
@@ -140,6 +143,10 @@ i.fa-circle{
     padding-bottom: 30px;
 }
 
+img.example{
+    width:100px;
+}
+
 /* GET STARTED NOW  */
 button.account{
     color:blue;
@@ -156,7 +163,11 @@ button.account{
     object-fit: cover;
 }
 
-.list{
+/* .list li.First,a,strong{
+    color:white;
+} */
+
+.list a{
     color:#535c6e;
 }
 
