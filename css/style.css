@@ -66,10 +66,6 @@ i{
 }
 
 /* IMAGE */
-.image{
-    background-color: #f3f5f9;
-}
-
 .inline img{
     width:100px;
 }
@@ -95,7 +91,7 @@ i{
 }
 
 /* DESIGNED FOR DEVELOPERS */
-.Designed{
+.bk-grey{
     background-color: #f3f5f9;
 }
 
@@ -138,9 +134,6 @@ i.fa-circle{
 
 
 /*  DEVELOPMENT TEAMS LOVE DIGITALOCEANS */
-.Development-teams{
-    background-color: #f3f5f9;
-}
 .rockerbox{
     background-color: white;
     padding-top: 30px;
@@ -161,4 +154,17 @@ button.account{
 .logo-footer{
     width: 30px;
     object-fit: cover;
+}
+
+.list{
+    color:#535c6e;
+}
+
+/* PADDING */
+.bk-grey,
+.bk-blue,
+.bk-white,
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
