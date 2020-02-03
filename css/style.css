@@ -11,6 +11,7 @@
 
 .navbar{
     background-color: white;
+    border: 0 solid white;
 }
 
 .icon-DigitalOcean{
@@ -52,9 +53,47 @@ i{
     color: red;
 }
 
+.btn{
+    margin-top: 15px;
+}
+
 /* IMAGE */
+.image{
+    background-color: #f3f5f9;
+}
 
 .inline img{
-    width: 100px;
-    object-fit: cover;
+    width:100px;
+}
+
+.fa-chevron-right{
+    padding-left: 10px;
+}
+
+/* DEPLOY AND SCALE SEAMLESSLY */
+
+
+
+/* DESIGNED FOR DEVELOPERS */
+.Designed{
+    background-color: #f3f5f9;
+}
+
+.example{
+    width: 200px;
+}
+
+i.fa-hand-point-left,
+i.fa-hand-point-right{
+    padding-top: 50px;
+}
+
+i.fa-circle{
+    color:#0248ff;;
+}
+
+@media screen and (max-width: 768px){
+    .example{
+        width:100px;
+    }
 }
