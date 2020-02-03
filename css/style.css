@@ -21,7 +21,10 @@ header{
     object-fit: cover;
 }
 
-
+.nav a{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 /* #myNavbar2{
 
 } */
