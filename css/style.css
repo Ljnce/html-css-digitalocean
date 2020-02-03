@@ -25,7 +25,7 @@
 
 /* JUMBOTRONE */
 #Jumbotrone{
-    background-image: url(https://c.wallhere.com/photos/70/11/digitalocean-117488.png!d);
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
 }
 
 .Title{
@@ -34,4 +34,27 @@
 
 .Blue{
     color:#0248ff;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.fa-google{
+    color: #e43c5f;
+}
+
+.fa-facebook{
+    color:#3e5b99;
+}
+
+.fa-instagram{
+    color: red;
+}
+
+/* IMAGE */
+
+.inline img{
+    width: 100px;
+    object-fit: cover;
 }
