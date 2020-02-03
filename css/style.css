@@ -72,7 +72,9 @@ i{
 
 /* DEPLOY AND SCALE SEAMLESSLY */
 
-
+.list-group-item{
+    border-style: hidden hidden hidden solid;
+}
 
 /* DESIGNED FOR DEVELOPERS */
 .Designed{
