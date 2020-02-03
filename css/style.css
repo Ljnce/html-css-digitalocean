@@ -15,6 +15,7 @@ header{
     font-size: 10px;
 }
 
+
 .icon-DigitalOcean{
     width: 180px;
     object-fit: cover;
@@ -136,6 +137,7 @@ i.fa-circle{
 }
 
 
+
 /*  DEVELOPMENT TEAMS LOVE DIGITALOCEANS */
 .rockerbox{
     background-color: white;
@@ -178,4 +180,8 @@ button.account{
 .footer{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.box{
+    padding-bottom: 20px;
 }
