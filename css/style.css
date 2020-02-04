@@ -7,7 +7,6 @@ header{
     position: fixed;
     z-index: 10;
     width: 100%;
-    height: 50px;
 }
 
 .navbar{
@@ -30,10 +29,19 @@ header{
     padding-right: 5px !important;
 }
 
+li a.nav-info strong{
+    color:#031b4e;
+}
+
+li a.nav-info strong:hover{
+    color:#0069ff;
+}
+
 .ms--nav-button{
     background-color: white;
     color:blue;
     border: 1px solid #0069ff;
+    border-radius: 10px;
 }
 
 .ms--nav-button:hover{
@@ -48,25 +56,15 @@ header{
 } */
 
 /* JUMBOTRONE */
-#Jumbotrone{
+.jumbotron{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-    padding-top: 50px;
     border-radius: 4px;
-    /* position: relative; */
+    margin-bottom: 0px !important;
+    padding-top: 100px !important;
+
 }
 
-
-/* .Title{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-} */
-
-/* .jumbotron{
-    background-color: rgba(0, 0, 0, 0);
-} */
-
-.Title{
+.title{
     color: white;
 }
 
@@ -143,9 +141,9 @@ img.inline{
 }
 
 .example1{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
 }
 
 .content {
@@ -174,7 +172,7 @@ img.inline{
 
 i.fa-hand-point-left,
 i.fa-hand-point-right{
-    padding-top: 50px;
+    padding-top: 400px;
 }
 
 i.fa-hand-point-right{
@@ -216,6 +214,9 @@ i.fa-circle{
 /*  12 REGION  */
 .bk-blue{
   background-image: url(https://image.freepik.com/vector-gratis/mapa-mundo-azul_1378-997.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 

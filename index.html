@@ -25,16 +25,16 @@
                    <div class="collapse navbar-collapse" id="myNavbar">
                        <img class="navbar-brand icon-DigitalOcean" href="#" src="https://cdn.freebiesupply.com/logos/thumbs/2x/digitalocean-2-logo.png" alt="Logo DigitalOcean">
                         <ul class="nav navbar-nav navbar-left">
-                            <li><a href="#"><strong>Products</strong><i class="fas fa-angle-down"></i></a></li>
-                            <li><a href="#"><strong>Customers</strong></a></li>
-                            <li><a href="#"><strong>Community</strong><i class="fas fa-angle-down"></i></a></li>
-                            <li><a href="#"><strong>Pricing</strong></a></li>
+                            <li><a class="nav-info" href="#"><strong>Products</strong><i class="fas fa-angle-down"></i></a></li>
+                            <li><a class="nav-info" href="#"><strong>Customers</strong></a></li>
+                            <li><a class="nav-info" href="#"><strong>Community</strong><i class="fas fa-angle-down"></i></a></li>
+                            <li><a class="nav-info" href="#"><strong>Pricing</strong></a></li>
                         </ul>
                     <div class="collapse navbar-collapse" id="myNavbar2">
                          <ul class="nav navbar-nav navbar-right">
-                             <li><a href="#"><strong>Docs</strong></a></li>
-                             <li><a href="#"><strong>Support</strong><i class="fas fa-angle-down"></i></a></li>
-                             <li><a href="#"><strong>Login</strong></a></li>
+                             <li><a class="nav-info" href="#"><strong>Docs</strong></a></li>
+                             <li><a class="nav-info" href="#"><strong>Support</strong><i class="fas fa-angle-down"></i></a></li>
+                             <li><a class="nav-info" href="#"><strong>Login</strong></a></li>
                              <button class="ms--nav-button btn-default">Sign Up</button>
                          </ul>
                      </div>
@@ -42,13 +42,51 @@
             </nav>
         </header>
         <!-- JUMBOTRONE -->
-        <section id="Jumbotrone">
+        <section class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="title text-left">
+                        <div class="col-xs-12 col-sm-6">
+                            <h1>The simplest cloud platform for developers &#38; teams</h1>
+                            <p> Deploy. manage, and scale cloud applications faster and more efficiently on DigitalOcean.
+                                We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="text-center">
+                            <div class="col-xs-12 col-sm-6 email-pwd">
+                                    <h3>Deploy your app in seconds.</h3>
+                                    <h3 class="Blue">Get started now.</h3>
+                                <form action="/action_page.php">
+                                    <div class="form-group text-left">
+                                        <label for="email"></label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <label for="pwd"></label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Password">
+                                    </div>
+                                        <button type="submit" class="btn btn-primary btn-block">Create your account</button>
+                                        <button type="submit" class="btn btn-default btn-block"><i class="fab fa-google"></i>Sign un with google</button>
+                                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-facebook"></i>Facebook</button>
+                                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-instagram"></i>Instagram</button>
+                                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-github"></i>GitHub</button>
+                                </form>
+                                    <small>By signing up you agree to the <a href="#">Terms of Service</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- JUMBOTRONE -->
+        <!-- <section id="Jumbotrone">
+            <div class="row">
             <div class="container padding-top">
                 <div class="xs-hidden col-sm-12">
                 </div>
             </div>
             <div class="container">
-                <div class="row">
                 <div class="Title text-left">
                 <div class="col-xs-12 col-sm-6">
                     <h1>The simplest cloud platform for developers &#38; teams</h1>
@@ -56,7 +94,7 @@
                         We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
                 </div>
                 </div>
-                <div class="container ju">
+                <div class="container ">
                     <div class="text-center">
                     <div class="col-xs-12 col-sm-6 email-pwd">
                         <h3>Deploy your app in seconds.</h3>
@@ -82,23 +120,23 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="container padding-bottom">
                 <div class="xs-hidden col-sm-12">
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- IMAGE -->
         <section class="image bk-grey">
             <div class="container">
                 <div class="row">
-                <div class="text-center">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
-            </div>
-
-                <div class="col-xs-6 col-sm-2 col-md-2">
-                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="Docker">
-                </div>
+                    <div class="text-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 col-md-2">
+                            <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="Docker">
+                        </div>
                 <div class="col-xs-6 col-sm-2 col-md-2">
                     <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="GitLab">
                 </div>
@@ -242,32 +280,32 @@
                     <tr>
                       <td><strong>AMS2</strong></td>
                       <td>Amsterdam, Netherlands</td>
-                      <td class="text-right"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                       <tr>
                       <td><strong>AMS3</strong></td>
                       <td>Amsterdam, Netherlands</td>
-                      <td class="text-right"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                       <tr>
                       <td><strong>BLR1</strong></td>
                       <td>Bangalore, India</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                      <tr>
                       <td><strong>FRA1</strong></td>
                       <td>Frankfurt, Germany</td>
-                      <td class="text-right speed"><a  class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a  class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>LON1</strong></td>
                       <td>London, UK</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>NYC1</strong></td>
                       <td>New York, USA</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -285,32 +323,32 @@
                       <tr>
                       <td><strong>NYC2</strong></td>
                       <td>New York, USA</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed <span class="caret"></span> </a></td>
                     </tr>
                     <tr>
                       <td><strong>NYC3</strong></td>
                       <td>New York, USA</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>SFO1</strong></td>
                       <td>San Francisco, USA</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>SFO2</strong></td>
                       <td>San Francisco, USA</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>SGP1</strong></td>
                       <td>Singapore</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                     <tr>
                       <td><strong>TOR1</strong></td>
                       <td>Toronto, Canada</td>
-                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed  <span class="caret"></span></a></td>
                     </tr>
                 </tbody>
              </table>
