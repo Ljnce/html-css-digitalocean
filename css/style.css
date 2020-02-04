@@ -16,7 +16,7 @@ header{
 }
 
 .navbarr{
-    /* line-height: 50px; */
+    line-height: 50px;
 }
 
 .icon-DigitalOcean{
@@ -76,6 +76,11 @@ button.navbar-toggle span.icon-bar{
     background-color: #00b47b;
     color:white;
     border-radius: 10px;
+    border-color: #009969;
+}
+
+p.free-credit{
+    font-size: 18px;
 }
 
 p.free-credit::before{
@@ -111,6 +116,7 @@ i{
 .padding-bottom{
     padding-top: 20px;
 }
+
 .fa-google{
     color: #e43c5f;
 }
@@ -140,12 +146,8 @@ i{
     border: 1px solid #0069ff;
 }
 
-button.social.btn i.fa-facebook{
-    background-color: yellow;
-}
-
 .social-btn:hover{
-    background-color: red;
+    background-color: #d5e4f7;
 }
 
 small.sign-up::before{
@@ -167,7 +169,6 @@ img.inline{
 }
 
 /* DEPLOY AND SCALE SEAMLESSLY */
-
 .list-group-item.deploy{
     border-style: hidden hidden hidden solid;
 }
@@ -221,64 +222,21 @@ i.fa-hand-point-right{
     position: absolute;
 }
 
-i.fa-hand-point-right{
-    padding-left: 30px;
+i.fa-hand-point-left{
+    left:50%;
+    bottom:50%;
+    transform: translateX(-300px);
 }
 
+i.fa-hand-point-right{
+    right:50%;
+    bottom:50%;
+    transform: translateX(310px);
+
+}
 
 i.fa-circle{
     color:#0248ff;
-}
-
-
-@media screen and (max-width: 768px){
-
-    header{
-        position: absolute;
-        color: white;
-    }
-
-    .icon-DigitalOcean{
-
-    }
-
-    .ms--navbar,
-    .jumbotron{
-        background-color: #0049ff;
-    }
-
-    .example{
-        width:100px;
-    }
-
-    .logo{
-        text-align: center;
-    }
-
-    .list{
-        padding-bottom: 20px;
-        padding-top: 10px;
-    }
-
-    .list-group a{
-        display: inline-block;
-        margin-left: 15px;
-    }
-
-/*
-    .ms--navbar{
-        background-color:#f3f5f9;
-    } */
-
-    h1.title-h1{
-        font-size: 30px;
-    }
-
-    p.title-h1{
-        font-size:20px;
-    }
-
-
 }
 
 /*  THE FEATURES YOUR BUSINNES NEED  */
@@ -338,7 +296,6 @@ button.account{
 
 
 /* FOOTER */
-
 .footer{
     background-color: #031b4e;
 }
@@ -390,4 +347,49 @@ li:hover a {
 
 .box{
     padding-bottom: 20px;
+}
+
+
+/* @MEDIA */
+@media screen and (max-width: 768px){
+
+    header{
+        position: absolute;
+        color: white;
+    }
+
+    .icon-DigitalOcean{
+
+    }
+
+    .ms--navbar,
+    .jumbotron{
+        background-color: #0049ff;
+    }
+
+    .example{
+        width:100px;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .list{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .list-group a{
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    h1.title-h1{
+        font-size: 30px;
+    }
+
+    p.title-h1{
+        font-size:20px;
+    }
 }
