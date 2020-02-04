@@ -76,6 +76,14 @@ p.free-credit::before{
     color: white;
 }
 
+h1.title-h1{
+    font-size: 40px;
+}
+
+p.title-h1{
+    font-size:25px;
+}
+
 .Blue{
     color:#0248ff;
 }
@@ -109,13 +117,34 @@ i{
     margin-top: 15px;
 }
 
+.btn-account{
+    background-color: #0069ff;
+}
+
+.btn-account:hover{
+    background-color: #031b4e;
+}
+
+.social-btn{
+    background-color: #f2f8ff;
+    border: 1px solid #0069ff;
+}
+
 button.social.btn i.fa-facebook{
     background-color: yellow;
 }
+
 .social-btn:hover{
     background-color: red;
+}
+
+small.sign-up::before{
+    width:100px;
+    height: 10px;
+    border: 1px solid black;
 
 }
+
 /* IMAGE */
 img.inline{
     width:100px;
@@ -155,7 +184,7 @@ img.inline{
 
 .content {
   position: relative;
-  width: 100%;
+  width: 90%;
   max-width: 600px;
   margin: auto;
   overflow: hidden;
@@ -219,6 +248,14 @@ i.fa-circle{
         background-color:#f3f5f9;
     }
 
+    h1.title-h1{
+        font-size: 30px;
+    }
+
+    p.title-h1{
+        font-size:20px;
+    }
+
 }
 
 /*  THE FEATURES YOUR BUSINNES NEED  */
@@ -255,6 +292,10 @@ i.fa-circle{
 
 img.example2{
     width:100px;
+}
+
+i.fas{
+
 }
 
 /* GET STARTED NOW  */
