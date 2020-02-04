@@ -12,7 +12,7 @@
     <body>
         <!-- NAVBAR -->
         <header>
-            <nav class="navbar navbar-inverse ">
+            <nav class="ms--navbar navbar navbar-inverse ">
                 <div class="container navbarr">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,7 +35,7 @@
                              <li><a href="#"><strong>Docs</strong></a></li>
                              <li><a href="#"><strong>Support</strong><i class="fas fa-angle-down"></i></a></li>
                              <li><a href="#"><strong>Login</strong></a></li>
-                             <li><a href="#">Sign Up</a></li>
+                             <button class="ms--nav-button btn-default">Sign Up</button>
                          </ul>
                      </div>
                 </div>
@@ -48,14 +48,15 @@
                 </div>
             </div>
             <div class="container">
+                <div class="row">
                 <div class="Title text-left">
                 <div class="col-xs-12 col-sm-6">
-                    <h1 >The simplest cloud platform for developers &#38; teams</h1>
+                    <h1>The simplest cloud platform for developers &#38; teams</h1>
                     <p> Deploy. manage, and scale cloud applications faster and more efficiently on DigitalOcean.
                         We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
                 </div>
                 </div>
-                <div class="container Jumbotrone into">
+                <div class="container ju">
                     <div class="text-center">
                     <div class="col-xs-12 col-sm-6 email-pwd">
                         <h3>Deploy your app in seconds.</h3>
@@ -71,12 +72,13 @@
                          </div>
                         <button type="submit" class="btn btn-primary btn-block">Create your account</button>
                         <button type="submit" class="btn btn-default btn-block"><i class="fab fa-google"></i>Sign un with google</button>
-                        <button type="submit" class="btn btn-default"><i class="fab fa-facebook"></i>Facebook</button>
-                        <button type="submit" class="btn btn-default"><i class="fab fa-instagram"></i>Instagram</button>
-                        <button type="submit" class="btn btn-default"><i class="fab fa-github"></i>GitHub</button>
+                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-facebook"></i>Facebook</button>
+                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-instagram"></i>Instagram</button>
+                        <button type="submit" class="social-btn btn btn-default"><i class="fab fa-github"></i>GitHub</button>
                         </form>
                         <small>By signing up you agree to the <a href="#">Terms of Service</a></small>
                     </div>
+                </div>
                     </div>
                 </div>
             </div>
@@ -88,33 +90,35 @@
         <!-- IMAGE -->
         <section class="image bk-grey">
             <div class="container">
+                <div class="row">
                 <div class="text-center">
-                <div class="col-xs-12 col-sm-12">
+                <div class="col-xs-12 col-sm-12 col-md-12">
                     <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
+            </div>
+
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="Docker">
                 </div>
-                <div class="inline">
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="Docker">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="GitLab">
                 </div>
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="GitLab">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="Slack">
                 </div>
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="Slack">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="HashiCorp">
                 </div>
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="HashiCorp">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
                 </div>
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
+                <div class="col-xs-6 col-sm-2 col-md-2">
+                    <img class="inline" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="Splunk">
                 </div>
-                <div class="col-xs-6 col-sm-2">
-                    <img src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="Splunk">
-                </div>
+
                 <div class="col-xs-12 col-sm-12">
                     <a href="#">View customers stories <i class="fas fa-chevron-right"></i></a>
                 </div>
-                </div>
+            </div>
             </div>
         </section>
         <!-- DEPLOY AND SCALE SEAMLESSLY -->
@@ -166,14 +170,14 @@
                     <h3><strong>Designed for developers</strong></h3>
                     <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
                 </div>
-                <div class="col-xs-1 col-xs-offset-2 col-sm-2 col-sm-offset-2">
+                <div class="col-xs-1 col-xs-offset-2 col-sm-1">
                     <i class="far fa-hand-point-left"></i>
                 </div>
-                <div class="col-xs-4 col-sm-4 content">
+                <div class="col-xs-4 col-sm-6 content">
                     <div class="content-overlay"></div>
-                    <img class="content-image example1 center-block" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-941311f7.jpg" alt="Example">
+                    <img class="content-image example1 center-block" src="https://www.digitalocean.com/assets/media/homepage/screenshot-projects-and-doctl-3db0054e.jpg" alt="Example">
                 </div>
-                <div class="col-xs-2 col-sm-2">
+                <div class="col-xs-2 col-sm-1">
                     <i class="far fa-hand-point-right"></i>
                 </div>
                 <div class="col-xs-12 col-sm-12">
@@ -225,7 +229,93 @@
                     <h3><strong>Service your customers around the world from 12 regions.</h3>
                 </div>
             </div>
-                <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6">
+                <table class="table">
+                   <!-- <thead>
+                      <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                      </tr>
+                   </thead> -->
+                 <tbody>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Amsterdam, Netherlands</td>
+                      <td class="text-right"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                      <tr>
+                      <td><strong>AMS3</strong></td>
+                      <td>Amsterdam, Netherlands</td>
+                      <td class="text-right"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                      <tr>
+                      <td><strong>BLR1</strong></td>
+                      <td>Bangalore, India</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                     <tr>
+                      <td><strong>FRA1</strong></td>
+                      <td>Frankfurt, Germany</td>
+                      <td class="text-right speed"><a  class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>LON1</strong></td>
+                      <td>London, UK</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>NYC1</strong></td>
+                      <td>New York, USA</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <table class="table">
+                   <!-- <thead>
+                      <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                      </tr>
+                   </thead> -->
+                   <tbody>
+                      <tr>
+                      <td><strong>NYC2</strong></td>
+                      <td>New York, USA</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>NYC3</strong></td>
+                      <td>New York, USA</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>SFO1</strong></td>
+                      <td>San Francisco, USA</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>SFO2</strong></td>
+                      <td>San Francisco, USA</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>SGP1</strong></td>
+                      <td>Singapore</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>TOR1</strong></td>
+                      <td>Toronto, Canada</td>
+                      <td class="text-right speed"><a class="speed" href="#"> Test speed </a></td>
+                    </tr>
+                </tbody>
+             </table>
+           </div>
+                <!-- <div class="col-xs-12 col-sm-6">
                     <ul class="list-group">
                        <li class="list-group-item region">AMS2 Amsterdam, Netherlands
                        <a href="#" class="text-right">Test speed<i class="fas fa-chevron-right"></i></a></li>
@@ -255,7 +345,7 @@
                        <a href="#">Test speed<i class="fas fa-chevron-right"></i></a></li>
                        <li class="list-group-item region">NYC1 New York, USA
                        <a href="#">Test speed<i class="fas fa-chevron-right"></i></a></li>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- DEVELOPMENT TEAMS LOVE DIGITALOCEANS-->
@@ -289,7 +379,7 @@
             </div>
         </section>
         <!-- GET STARTED NOW -->
-        <section class="get-started bk-blue">
+        <section class="get-started bk-fish">
             <div class="container">
                 <div class="text-center">
                 <div class="col-xs-12 col-sm-12">
