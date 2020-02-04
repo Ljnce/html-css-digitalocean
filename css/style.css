@@ -48,12 +48,11 @@ li a.nav-info strong:hover{
     background-color: blue;
     color:white;
     border: 1px solid black;
-
-
 }
-/* #myNavbar2{
 
-} */
+button.navbar-toggle span.icon-bar{
+    background-color: red;
+}
 
 /* JUMBOTRONE */
 .jumbotron{
@@ -61,7 +60,16 @@ li a.nav-info strong:hover{
     border-radius: 4px;
     margin-bottom: 0px !important;
     padding-top: 100px !important;
+}
 
+.free-credit{
+    background-color: #00b47b;
+    color:white;
+    border-radius: 10px;
+}
+
+p.free-credit::before{
+  content: "💸";
 }
 
 .title{
@@ -141,21 +149,20 @@ img.inline{
 }
 
 .example1{
-    width: 600px;
-    height: 600px;
+    width: 100%;
     object-fit: contain;
 }
 
 .content {
   position: relative;
-  width: 90%;
-  max-width: 400px;
+  width: 100%;
+  max-width: 600px;
   margin: auto;
   overflow: hidden;
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.5);
   position: absolute;
   height: 99%;
   width: 100%;
@@ -207,6 +214,11 @@ i.fa-circle{
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .ms--navbar{
+        background-color:#f3f5f9;
+    }
+
 }
 
 /*  THE FEATURES YOUR BUSINNES NEED  */
