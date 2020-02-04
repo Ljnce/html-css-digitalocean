@@ -16,7 +16,7 @@ header{
 }
 
 .navbarr{
-    line-height: 50px;
+    /* line-height: 50px; */
 }
 
 .icon-DigitalOcean{
@@ -25,8 +25,14 @@ header{
 }
 
 .nav a{
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+    /* padding-left: 5px !important;
+    padding-right: 5px !important; */
+    padding:5px !important;
+}
+
+ul{
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 li a.nav-info strong{
@@ -52,6 +58,10 @@ li a.nav-info strong:hover{
 
 button.navbar-toggle span.icon-bar{
     background-color: red;
+}
+
+.ms--nav-button{
+    padding-top: 0px !important;
 }
 
 /* JUMBOTRONE */
@@ -208,12 +218,13 @@ img.inline{
 
 i.fa-hand-point-left,
 i.fa-hand-point-right{
-    padding-top: 400px;
+    position: absolute;
 }
 
 i.fa-hand-point-right{
     padding-left: 30px;
 }
+
 
 i.fa-circle{
     color:#0248ff;
@@ -221,6 +232,21 @@ i.fa-circle{
 
 
 @media screen and (max-width: 768px){
+
+    header{
+        position: absolute;
+        color: white;
+    }
+
+    .icon-DigitalOcean{
+
+    }
+
+    .ms--navbar,
+    .jumbotron{
+        background-color: #0049ff;
+    }
+
     .example{
         width:100px;
     }
@@ -239,14 +265,10 @@ i.fa-circle{
         margin-left: 15px;
     }
 
-    #Jumbotron{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
+/*
     .ms--navbar{
         background-color:#f3f5f9;
-    }
+    } */
 
     h1.title-h1{
         font-size: 30px;
@@ -255,6 +277,7 @@ i.fa-circle{
     p.title-h1{
         font-size:20px;
     }
+
 
 }
 
@@ -281,6 +304,10 @@ i.fa-circle{
 
 .speed{
     color:#00d7d2;
+}
+
+.table > tbody > tr:first-child > td {
+   border-top: none;
 }
 
 /*  DEVELOPMENT TEAMS LOVE DIGITALOCEANS */
