@@ -13,6 +13,7 @@ header{
     background-color: white;
     border: 0 solid white;
     font-size: 10px;
+    font-size: 12px;
 }
 
 .navbar-first{
@@ -33,11 +34,11 @@ ul{
     padding-bottom: 10px;
 }
 
-li a.nav-info strong{
+li > a.nav-info strong{
     color:#031b4e;
 }
 
-li a.nav-info strong:hover{
+li > a.nav-info strong:hover{
     color:#0069ff;
 }
 
@@ -49,7 +50,7 @@ li > a.ms--nav-button strong{
     padding: 6px;
 }
 
-li a.ms--nav-button strong:hover{
+li > a.ms--nav-button strong:hover{
     background-color: blue;
     color:white;
     border: 1px solid black;
@@ -92,6 +93,7 @@ h1.title-h1{
 
 p.title-h1{
     font-size:25px;
+    color: white;
 }
 
 .Blue{
@@ -106,11 +108,6 @@ i{
     background-color: white;
     padding-bottom: 20px;
 }
-
-/* .padding-top,
-.padding-bottom{
-    padding-top: 20px;
-} */
 
 .fa-google{
     color: #e43c5f;
@@ -152,9 +149,9 @@ small.sign-up::before{
 }
 
 /* IMAGE */
-img.inline{
-    width:100px;
-    height: 100px;
+img.business{
+    width:120px;
+    height: 120px;
     object-fit: contain;
 }
 
@@ -163,6 +160,23 @@ img.inline{
 }
 
 /* DEPLOY AND SCALE SEAMLESSLY */
+h3{
+    color: #031b4e;
+}
+
+p{
+    color: #4e5f83;
+}
+
+.deploy-and-scale{
+    padding-bottom: 20px;
+}
+
+.list-group{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
 .list-group-item.deploy{
     border-style: hidden hidden hidden solid;
 }
@@ -178,13 +192,14 @@ img.inline{
 }
 
 /* DESIGNED FOR DEVELOPERS */
-.bk-grey{
+.ms--bk-grey{
     background-color: #f3f5f9;
 }
 
 .example1{
     width: 100%;
     object-fit: contain;
+    border: 0.5px solid #eceef3;
 }
 
 .content {
@@ -235,12 +250,16 @@ i.fa-circle{
 /*  THE FEATURES YOUR BUSINNES NEED  */
 
 /*  12 REGION  */
-.bk-blue{
+.ms--bk-blue{
   background-image: url(https://image.freepik.com/vector-gratis/mapa-mundo-azul_1378-997.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+.white-title{
+    color: white;
 }
 
 .list-group{
@@ -266,6 +285,8 @@ i.fa-circle{
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: #4e5f83;
+    border: 0.5px solid #eceef3;
 }
 
 img.example2{
@@ -273,7 +294,7 @@ img.example2{
 }
 
 /* GET STARTED NOW  */
-.bk-fish{
+.ms--bk-fish{
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
     padding-bottom: 50px;
     color:white;
@@ -284,7 +305,7 @@ button.account{
 }
 
 /* FOOTER */
-.footer{
+.ms--bk-black{
     background-color: #031b4e;
 }
 
@@ -297,15 +318,15 @@ button.account{
     color:#6d7583;
 }
 
-ul li.First strong{
+ul > li.First strong{
     color: white;
 }
 
-ul li a{
+ul > li > a{
     color: #6d7583;
 }
 
-.list a{
+.list > a{
     color:#535c6e;
 }
 
@@ -315,20 +336,24 @@ ul li a{
     padding-top: 20px;
 }
 
-.icon-footer a i{
+.icon-footer > a > i{
     color:white;
     margin:15px;
 }
 
-li:hover a {
+li:hover > a {
     color:white;
 }
 
-/* PADDING */
-.bk-grey,
-.bk-blue,
-.bk-white,
-.footer{
+.get-started-now{
+    color: white;
+}
+
+/* PADDING GROUP*/
+.ms--bk-grey,
+.ms--bk-blue,
+.ms--bk-white,
+.ms--bk-black{
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -341,16 +366,16 @@ i.fas.fa-circle{
     padding-top: 40px;
 }
 
+h3{
+    padding-bottom:20px;
+}
+
 /* @MEDIA */
 @media screen and (max-width: 768px){
 
     header{
         position: absolute;
         color: white;
-    }
-
-    .icon-DigitalOcean{
-
     }
 
     .ms--navbar,
@@ -361,6 +386,7 @@ i.fas.fa-circle{
     .example{
         width:100px;
     }
+
 
     .logo{
         text-align: center;
@@ -382,5 +408,27 @@ i.fas.fa-circle{
 
     p.title-h1{
         font-size:20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navbar{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbar{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    p{
+        font-size: 15px;
     }
 }
