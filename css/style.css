@@ -41,21 +41,18 @@ li a.nav-info strong:hover{
     color:#0069ff;
 }
 
-.ms--nav-button{
+li > a.ms--nav-button strong{
     background-color: white;
     color:blue;
     border: 1px solid #0069ff;
-    border-radius: 10px;
+    border-radius: 6px;
+    padding: 6px;
 }
 
-.ms--nav-button:hover{
+li a.ms--nav-button strong:hover{
     background-color: blue;
     color:white;
     border: 1px solid black;
-}
-
-button.navbar-toggle span.icon-bar{
-    background-color: red;
 }
 
 .ms--nav-button{
@@ -77,9 +74,6 @@ button.navbar-toggle span.icon-bar{
     border-color: #009969;
 }
 
-.log-in{
-    border-radius: 20px;
-}
 p.free-credit{
     font-size: 18px;
 }
